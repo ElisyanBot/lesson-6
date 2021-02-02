@@ -1,0 +1,61 @@
+/*Main page second content*/
+.sectionTwo{
+    background-color: #ffffff;
+    height: 50vh;
+    max-width: 140rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .sectionTwo_heading{
+        font-size: 4rem;
+        text-align: center;
+        margin-bottom: 6rem;
+        transform: translateX(-50px);
+    }
+
+    .sectionTwo-cardContainer{
+    width: 120rem;
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+        .card{
+            width:24rem;
+            height: 17.8rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        
+            /*logos*/
+                .sectionTwo-cardLogo_cursor{
+                    background-color:blue;
+                    width: 5rem;
+                    height: 5rem;
+                }
+                .sectionTwo-cardLogo_design{
+                    background-color:blue;
+                    width: 5rem;
+                    height: 5rem;
+                }
+                .sectionTwo-cardLogo_heart{
+                    background-color:blue;
+                    width: 5rem;
+                    height: 5rem;
+
+                }
+                .sectionTwo-cardLogo_hourGlass{
+                    background-color:blue;
+                    width: 5rem;
+                    height: 5rem;
+                }
+
+    .sectionTwo-button_signUpNowBtn{
+        transform: translate(-50px, 20px);
+        margin-top:5rem;
+        width: 17.5rem;
+        height: 5.3rem;
+    }

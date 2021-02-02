@@ -1,0 +1,51 @@
+header{
+    background-color: #ffffff;
+    height: 10vh;
+    max-width: 140rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+    .logo{
+        background-color: blue;
+        width: 18.5rem;
+        height: 5rem;
+        margin-left: 14.3rem;
+    }
+        .headerNav{
+            width:125.5rem;
+            display:flex;
+            justify-content: flex-end;
+            margin-right: 14.3rem;
+            
+        }
+            .headerNav-navLinks{
+                display: flex;
+                justify-content: flex-end;
+                width: 35rem;
+                padding:1rem;
+                margin-right: 5rem;
+            }
+
+                .headerNav-navLinks li {
+                    margin: 0 1.5rem;
+                }
+        
+        .header-buttons{
+            display: flex;
+        }
+            .header-buttons_signIn{
+                background-color: #ffffff;
+                border: 0.2rem solid #BCD0E5;
+                border-radius: 0.4rem;
+                width: 10rem;
+                margin-right: 1.4rem;
+            }
+                .header-buttons_signIn:hover{
+                    background-color:#BCD0E5;
+                    cursor: pointer;
+                }
+            .header-buttons_signUp{
+                width: 10rem;
+                
+            }

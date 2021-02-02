@@ -1,0 +1,61 @@
+/*Main page fourth content*/
+.sectionFour{
+    background-color: #ffffff;
+    height: 80vh;
+    max-width: 140rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.sectionFour-article{
+    height: 80%;
+    width: 54rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .sectionFour-article_heading{
+        font-size: 3.6rem;
+    }
+        .sectionFour-article_paragraph{
+            margin: 1.5rem 0;
+        }
+            .sectionFour-article_orderdList{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                margin-left: 6rem;
+                
+            }
+                .checkmarkLogo{
+                    position: absolute;
+                    width: 3.5rem;
+                    height: 3.5rem;
+                    background-color: blue;
+                }
+                    /*ceckmark logos before the paragraphs*/
+                        .firstCeckmark{
+                            top: 2.3rem;
+                            left: -6.2rem;
+                        }
+                        .secondCeckmark{
+                            top: 11.3rem;
+                            left: -6.2rem;
+                        }
+                        .thirdCeckmark{
+                            top: 19.5rem;
+                            left: -6.2rem;
+                        }
+
+ .sectionFour-img{
+        width: 52rem;
+        height: 52rem;
+        background-color: blue;
+    }
+
+        .sectionFour-img img{
+            
+        }

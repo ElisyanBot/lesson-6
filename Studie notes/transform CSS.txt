@@ -1,0 +1,23 @@
+transform:
+    används för att förändra ett redan existerande element.
+
+        Rotate:
+
+            roterar blocket i grader
+
+        scale x,y,z:
+
+            används för att förminsa eller förstora hela eller x,y,z axeln
+            på ett block.
+
+        skew x,y:
+
+            skew(sned) skapar en lutning på blocket
+
+        translate x,y:
+
+            flyttar elementet längs x eller y axeln.
+
+        matrix([scaleX],[skewY],[skewX],[scaleY],[transformX]):
+
+            används för att kunna använda flera saker i css samtidigt.

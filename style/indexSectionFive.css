@@ -1,0 +1,45 @@
+/*Main page fifth content*/
+.sectionFive{
+    background-color: #ffffff;
+    height: 70vh;
+    max-width: 140rem;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+ 
+    .sectionFive-article{
+        height:50rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+
+        .sectionFive-article_heading{
+            font-size: 3.6rem;
+            line-height: 5.4rem;
+        }
+
+            .sectionFive-article_subHeading{
+               font-size: 1.6rem;
+            }
+
+                .sectionFive-article_paragraph{
+                    font-size: 1.6rem;
+                    Line-height: 2.6rem;
+                }
+
+
+    .sectionFive-img{
+        width: 52rem;
+        height: 57rem;
+        background-color: blue;
+    }
+
+        .sectionFive-img img{
+            
+        }

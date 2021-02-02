@@ -1,0 +1,78 @@
+/*Main page first content*/
+.sectionOne{
+    background-color: #ffffff;
+    height: 60vh;
+    max-width: 140rem;
+    margin: auto;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+    .sectionOne-article{
+        position: relative;
+        top: 8.8rem;
+        height: 30rem;
+        width: 50rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+
+        .sectionOne-article_heading{
+            font-size: 4.4rem;
+            line-height: 5.4rem;
+        }
+
+            .sectionOne-article_paragraph{
+                font-size: 1.8rem;
+                line-height: 2.8rem;
+                padding: 4rem 0rem;
+            }
+
+                .sectionOne-article_buttons{
+                    display: flex;
+                }
+
+                    .sectionOne-buttons_getStartedbtn{
+                        width: 17.5rem;
+                        
+                    }
+
+                    .sectionOne-buttons_watchVideoBtn{
+                        padding: 1rem 1rem 1rem 4rem;
+                        background-color: #ffffff;
+                        border: none;
+                        color: #FF9900;
+                        font-size: 1.6rem;
+                        text-align: center;
+
+                    }
+                        .sectionOne-buttons_watchVideoBtn:hover{
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                        
+                    /*the play btn logo beside the text "watch the video"*/
+                    .PlayVideoLogo{
+                        position: absolute;
+                        left:19.2rem;
+                        bottom: 0.5rem;
+                        width: 2rem;
+                        Height:1.7rem;
+                        background-color: blue;
+                    }
+
+    .sectionOne-img{
+        position: relative;
+        top: 2.8rem;
+        width: 60.5rem;
+        height: 49.6rem;
+        background-color: blue;
+    }
+
+        .sectionOne-img img{
+            
+        }
