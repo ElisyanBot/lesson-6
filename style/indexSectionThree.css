@@ -37,10 +37,9 @@
     .sectionThree-img{
         width: 52rem;
         height: 57rem;
-        background-color: blue;
     }
 
         .sectionThree-img img{
-            
+            width: 100%;
         }
 

@@ -56,23 +56,26 @@
                         }
                         
                     /*the play btn logo beside the text "watch the video"*/
-                    .PlayVideoLogo{
+                    .playVideoLogo{
                         position: absolute;
                         left:19.2rem;
                         bottom: 0.5rem;
                         width: 2rem;
                         Height:1.7rem;
-                        background-color: blue;
                     }
+
+                        .fa-play {
+                            background-image: url(../img/play-solid.svg);
+                            background-repeat: no-repeat;
+                        }
 
     .sectionOne-img{
         position: relative;
         top: 2.8rem;
         width: 60.5rem;
         height: 49.6rem;
-        background-color: blue;
     }
 
         .sectionOne-img img{
-            
+            width: 100%;
         }

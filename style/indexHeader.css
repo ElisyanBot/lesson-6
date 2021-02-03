@@ -7,8 +7,9 @@ header{
     align-items: center;
 }
     .logo{
-        background-color: blue;
-        width: 18.5rem;
+        background-image: url(../img/Logo.svg);
+        background-repeat: no-repeat;
+        width: 25.5rem;
         height: 5rem;
         margin-left: 14.3rem;
     }

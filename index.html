@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--metatags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Fonts-->
@@ -23,7 +22,7 @@
 
 <body>
     <header>
-        <div class="logo"> </div>
+        <div class="logo"></div>
             <nav class="headerNav">
                 <ul class="headerNav-navLinks">
                     <li><a href="#">Products</a></li>
@@ -52,11 +51,11 @@
             </p>
             <div class="sectionOne-article_buttons">
                 <button class="sectionOne-buttons_getStartedbtn mainButtonStyle">Get started</button>
-                <button class="sectionOne-buttons_watchVideoBtn"><div class="PlayVideoLogo"></div> watch the video</button>
+                <button class="sectionOne-buttons_watchVideoBtn"><i class="fas fa-play playVideoLogo" ></i> watch the video</button>
             </div>
         </article>
         <div class="sectionOne-img">
-            <img src="" alt="people cheering">
+            <img src="img/sectionOneImg.png" alt="people cheering">
         </div> 
     </section>
 
@@ -121,8 +120,8 @@
         </div>
     <!--button-->
     <!--link takes you to the footer from input-->
-        <button class="sectionTwo-button_signUpNowBtn mainButtonStyle">
-            <a href="#email">SIGN UP NOW</a>
+        <button class="sectionTwo-button_signUpNowBtn ">
+            <a class="sectionTwo-button_link"href="#email">SIGN UP NOW</a>
         </button>
     </section>
 
@@ -165,7 +164,7 @@
                 </p>
         </article>
         <div class="sectionThree-img">
-            <img src="" alt="guy on social media">
+            <img src="img/seationThreeImg.png" alt="guy on social media">
         </div>
     </section>
 
@@ -173,7 +172,7 @@
 
     <section class="sectionFour">
         <div class="sectionFour-img">
-            <img src="" alt="guy beeing productive">
+            <img src="img/sectionFourImg.png" alt="guy beeing productive">
         </div>
         <!--section four text starts here-->
         <article class="sectionFour-article">
@@ -189,26 +188,20 @@
                 personality of the person. 
             </p>
                 <ul class="sectionFour-article_orderdList">
-                    <li>
-                        <div class="checkmarkLogo firstCeckmark"></div>
-                        <p class="sectionFour-article_paragraph">
-                            Never worry about overpaying for your <br>
-                            energy again. 
-                        </p>
-                    </li>¨
-                    <li>
-                        <div class="checkmarkLogo secondCeckmark"></div>
-                        <p class="sectionFour-article_paragraph">
-                            We will only switch you to energy companies <br>
-                            that we trust and will treat you right
-                        </p>
+                    <li class="checkmarkLogo firstCeckmark"></li>
+                    <li class="sectionFour-article_paragraph">
+                            <p>Never worry about overpaying for your <br>
+                            energy again. </p>
                     </li>
-                    <li>
-                        <div class="checkmarkLogo thirdCeckmark"></div>
-                        <p class="sectionFour-article_paragraph">
-                            We track the markets daily and know where the <br>
-                            savings are.
-                        </p>
+                    <li class="checkmarkLogo secondCeckmark"></li>
+                    <li class="sectionFour-article_paragraph">
+                           <p> We will only switch you to energy companies <br>
+                            that we trust and will treat you right</p>
+                    </li>
+                    <li class="checkmarkLogo thirdCeckmark"></li>
+                    <li class="sectionFour-article_paragraph">
+                            <p>We track the markets daily and know where the <br>
+                            savings are.</p>
                     </li>
                 </ul>
         </article>
@@ -254,7 +247,7 @@
                 </p>
         </article>
         <div class="sectionFive-img">
-            <img src="" alt="guy making choices">
+            <img src="img/sectionFiveImg.png" alt="guy making choices">
         </div>
     </section>
 
@@ -264,24 +257,25 @@
     <footer>
         <div class="footerLogo"></div>
             <nav class="footerMeny">
-                <ul class="footerMeny-links">
+                <div class="footerMeny-links">
                     <!--first footer meny culomn-->
-                    <div class="footerMeny-links_firstCulomn">
+                    <ul class="footerMeny-links_firstCulomn">
                         <li class=footerMeny-links_items><a href="#">About Us</a></li>
                         <li class=footerMeny-links_items><a href="#">Blog</a></li>
                         <li class=footerMeny-links_items><a href="#">Contact</a></li>
                         <li class=footerMeny-links_items><a href="#">FAQ</a></li>
-                    </div>
+                    </ul>
                     <!--second footer meny culomn-->
-                    <div class="footerMeny-links_secondCulomn">
+                    <ul class="footerMeny-links_secondCulomn">
                         <li class=footerMeny-links_items><a href="#">Disclaimer</a></li>
                         <li class=footerMeny-links_items><a href="#">Financing</a></li>
                         <li class=footerMeny-links_items><a href="#">Privacy Policy</a></li>
                         <li class=footerMeny-links_items><a href="#">Terms of Service</a></li>
-                    </div>
-                </ul>
+                    </ul>
+                </div>
             </nav>
             <form class="footerFormEmail" action="">
+                <label for="email"></label>
                 <input placeholder="E-mail" name="email" type="email" id="email">
                 <button class="footer-button_signUpNowBtn mainButtonStyle" type="submit">Sign up Now</button>
             </form>

@@ -34,28 +34,28 @@
                     position: absolute;
                     width: 3.5rem;
                     height: 3.5rem;
-                    background-color: blue;
+                    background-image: url(../img/ceckmarkLogo.png);
                 }
                     /*ceckmark logos before the paragraphs*/
                         .firstCeckmark{
-                            top: 2.3rem;
+                            top: 2rem;
                             left: -6.2rem;
                         }
                         .secondCeckmark{
-                            top: 11.3rem;
+                            top: 10rem;
                             left: -6.2rem;
                         }
                         .thirdCeckmark{
-                            top: 19.5rem;
+                            top: 18rem;
                             left: -6.2rem;
                         }
 
  .sectionFour-img{
         width: 52rem;
         height: 52rem;
-        background-color: blue;
+       
     }
 
         .sectionFour-img img{
-            
+            width: 100%;
         }

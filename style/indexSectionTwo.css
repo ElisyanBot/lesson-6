@@ -32,23 +32,27 @@
         
             /*logos*/
                 .sectionTwo-cardLogo_cursor{
-                    background-color:blue;
+                    background-image: url(../img/iconCursor.png);
+                    background-repeat:no-repeat;
                     width: 5rem;
                     height: 5rem;
                 }
                 .sectionTwo-cardLogo_design{
-                    background-color:blue;
+                    background-image: url(../img/iconDesign.png);
+                    background-repeat:no-repeat;
                     width: 5rem;
                     height: 5rem;
                 }
                 .sectionTwo-cardLogo_heart{
-                    background-color:blue;
+                    background-image: url(../img/iconHeart.png);
+                    background-repeat:no-repeat;
                     width: 5rem;
                     height: 5rem;
 
                 }
                 .sectionTwo-cardLogo_hourGlass{
-                    background-color:blue;
+                    background-image: url(../img/iconHourglass.png);
+                    background-repeat:no-repeat;
                     width: 5rem;
                     height: 5rem;
                 }
@@ -56,6 +60,21 @@
     .sectionTwo-button_signUpNowBtn{
         transform: translate(-50px, 20px);
         margin-top:5rem;
-        width: 17.5rem;
-        height: 5.3rem;
+        width: 17rem;
+        height: 5rem;
+        border: none;
+        border: none;
+        background-color: #FF9900;
+        border-radius: 0.4rem;
     }
+        .sectionTwo-button_signUpNowBtn:hover{
+            background-color: #c06d00;
+            cursor: pointer;
+        }
+        .sectionTwo-button_link{
+            display: block;
+            color: #ffffff;
+        }
+            .sectionTwo-button_link:hover{
+                text-decoration: none;
+            }
